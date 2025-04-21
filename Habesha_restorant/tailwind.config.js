@@ -58,9 +58,25 @@ module.exports = {
           full: '9999px',
         },
         fontFamily: {
-          sans: ['Poppins', 'ui-sans-serif', 'system-ui'],
-          heading: ['Playfair Display', 'serif'],
+          // Clean modern sans-serif for UI
+          sans: ['Poppins', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+          
+          // Stylish serif for headings and elegant texts
+          heading: ['Playfair Display', 'Merriweather', 'serif'],
+        
+          // Decorative gothic-style title font
+          fraktur: ['"UnifrakturMaguntia"', '"UnifrakturCook"', 'cursive'],
+        
+          // Clean serif alternative
+          serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif'],
+        
+          // Monospaced for code or techy UI
+          mono: ['Fira Code', 'Menlo', 'Monaco', 'Consolas', '"Courier New"', 'monospace'],
+        
+          // Fun and casual fonts (good for creative sections)
+          display: ['"Pacifico"', '"Lobster"', '"Dancing Script"', 'cursive'],
         },
+        
         boxShadow: {
           sm: '0 1px 2px rgba(0, 0, 0, 0.05)',
           DEFAULT: '0 1px 3px rgba(0, 0, 0, 0.1)',
