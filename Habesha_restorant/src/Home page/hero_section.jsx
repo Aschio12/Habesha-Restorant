@@ -26,8 +26,8 @@ export default function Hero() {
         </p>
       </div>
       <div
-        className="flex-col flex-wrap w-full h-auto bg-amber-950 border-1 bg-cover mt-[-32vh]"
-        style={{ clipPath: "polygon(0 30%, 100% 0, 100% 100%, 0 100%)" }}
+        className="flex-col flex-wrap w-full h-auto bg-amber-950 border-1 bg-cover mt-[-31vh]"
+        style={{ clipPath: "polygon(0 26%, 100% 0, 100% 100%, 0 100%)" }}
       >
         <div className="w-[100%] h-fit bg-cover bg-amber-300 p-10 mt-[15%]">
           <h2 className="w-[70%] border-0 h-auto text-center p-0 text-5xl  font-medium ">
@@ -42,6 +42,26 @@ export default function Hero() {
             with the finest ingredients. Whether you're here for a meal or a
             cozy stay, we ensure a memorable experience.
           </p>
+        </div>
+        <div className="flex flex-wrap gap-10  w-full h-auto mt-7 mb-7 border-2 border-amber-300">
+          <div className="ml-[4%] w-[45%] h-[100%] border-2 border-amber-300">
+            <div>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Asperiores maiores qui nostrum delectus fugiat similique enim
+              distinctio nihil recusandae minus, ipsam praesentium repellendus
+              iste possimus ipsa, officia accusantium repellat quibusdam.
+            </div>
+            <div className="text-center">injoy same thing</div>
+          </div>
+          <div className="w-[45%] h-[100%] border-2 border-amber-300">
+            <div >
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Asperiores maiores qui nostrum delectus fugiat similique enim
+              distinctio nihil recusandae minus, ipsam praesentium repellendus
+              iste possimus ipsa, officia accusantium repellat quibusdam.
+            </div>
+            <div className="text-center">injoy same thing</div>
+          </div>
         </div>
       </div>
     </div>
