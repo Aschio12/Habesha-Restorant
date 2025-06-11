@@ -1,9 +1,8 @@
-import Hero from "./Home page/hero_section";
-import Header from "./reusables/header";
+import Parent from "./Home page/parent";
 export default function App(){
   return(
     <div >
-      <Hero/>
+      <Parent/>
     </div>
     );
 }

@@ -1,5 +1,5 @@
-import Header from "../reusables/header"
-import heroBg from "../assets/ChatGPT Image Apr 13, 2025, 11_53_49 PM.png"
+import Header from "../reusables/header";
+import heroBg from "../assets/ChatGPT Image Apr 13, 2025, 11_53_49 PM.png";
 
 export default function Hero() {
   return (
@@ -26,11 +26,14 @@ export default function Hero() {
                 Experience Authentic Ethiopian Cuisine at Habesha
               </h1>
               <p className="text-base sm:text-lg md:text-xl max-w-3xl mx-auto leading-relaxed opacity-90">
-                Welcome to Habesha Restaurant, where every dish tells a story and every flavor invites you to experience
-                a piece of culture. Our menu is a celebration of rich, traditional recipes passed down through
-                generations, alongside modern twists that bring a fresh perspective. Whether you're here for an intimate
-                dinner or a festive gathering, we promise a unique dining experience that captures the heart of our
-                heritage. Dive into our world of vibrant tastes, aromas, and unforgettable moments.
+                Welcome to Habesha Restaurant, where every dish tells a story
+                and every flavor invites you to experience a piece of culture.
+                Our menu is a celebration of rich, traditional recipes passed
+                down through generations, alongside modern twists that bring a
+                fresh perspective. Whether you're here for an intimate dinner or
+                a festive gathering, we promise a unique dining experience that
+                captures the heart of our heritage. Dive into our world of
+                vibrant tastes, aromas, and unforgettable moments.
               </p>
             </div>
           </div>
@@ -56,9 +59,11 @@ export default function Hero() {
           {/* Description Section */}
           <div className="rounded-lg p-6 sm:p-8 mb-8 w-[96%] ">
             <p className="text-base sm:text-lg md:text-xl text-center leading-relaxed p-0">
-              At Habesha Restaurant, we offer a unique dining experience that celebrates the rich flavors of Ethiopian
-              culture. Enjoy our diverse menu featuring traditional dishes and refreshing drinks, all made with the
-              finest ingredients. Whether you're here for a meal or a cozy stay, we ensure a memorable experience.
+              At Habesha Restaurant, we offer a unique dining experience that
+              celebrates the rich flavors of Ethiopian culture. Enjoy our
+              diverse menu featuring traditional dishes and refreshing drinks,
+              all made with the finest ingredients. Whether you're here for a
+              meal or a cozy stay, we ensure a memorable experience.
             </p>
           </div>
 
@@ -66,32 +71,42 @@ export default function Hero() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 max-w-6xl mx-auto">
             <div className="bg-amber-200 rounded-lg p-6 sm:p-8 text-amber-900">
               <div className="space-y-4">
-                <p className="text-sm sm:text-base leading-relaxed">
-                  Discover the authentic taste of Ethiopia with our carefully crafted traditional dishes. Each recipe
-                  has been passed down through generations, preserving the rich culinary heritage of our culture. From
-                  injera to doro wat, every bite tells a story of tradition and passion.
+                <p className="text-sm sm:text-base leading-relaxed inline-block h-[50vh]">
+                  Discover the authentic taste of Ethiopia with our carefully
+                  crafted traditional dishes. Each recipe has been passed down
+                  through generations, preserving the rich culinary heritage of
+                  our culture. From injera to doro wat, every bite tells a story
+                  of tradition and passion.
                 </p>
-                <div className="text-center">
-                  <h3 className="text-lg sm:text-xl font-semibold">Delicious Food and Refreshing Drinks Await You</h3>
-                </div>
               </div>
             </div>
 
             <div className="bg-amber-200 rounded-lg p-6 sm:p-8 text-amber-900">
               <div className="space-y-4">
-                <p className="text-sm sm:text-base leading-relaxed">
-                  Experience comfort and hospitality in our welcoming atmosphere. Whether you're joining us for a quick
-                  meal or planning to stay longer, our warm environment and attentive service ensure your visit is
-                  memorable. Come as a guest, leave as family.
+                <p className="text-sm sm:text-base leading-relaxed inline-block h-[50vh]">
+                  Experience comfort and hospitality in our welcoming
+                  atmosphere. Whether you're joining us for a quick meal or
+                  planning to stay longer, our warm environment and attentive
+                  service ensure your visit is memorable. Come as a guest, leave
+                  as family.
                 </p>
-                <div className="text-center">
-                  <h3 className="text-lg sm:text-xl font-semibold">Comfortable Lodging for a Relaxing Stay</h3>
-                </div>
               </div>
+            </div>
+          </div>
+          <div className="flex flex-wrap w-full  justify-between">
+            <div className="text-center w-fit">
+              <h3 className="lg:text-2xl sm:text-xl font-semibold w-[40vw]">
+                Delicious Food and Refreshing Drinks Await You
+              </h3>
+            </div>
+            <div className="text-center w-fit">
+              <h3 className="text-lg sm:text-xl font-semibold w-[40vw]">
+                Comfortable Lodging for a Relaxing Stay
+              </h3>
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
