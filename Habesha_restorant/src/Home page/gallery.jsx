@@ -17,10 +17,10 @@ export default function GalleryPage() {
   const duplicatedItems = [...galleryItems, ...galleryItems]
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-amber-800 p-8">
       {/* Header Section */}
-      <div className="text-center py-16 px-4">
-        <h1 className="text-4xl md:text-5xl font-light text-gray-800 leading-tight max-w-2xl mx-auto">
+      <div className="text-center py-14 px-3">
+        <h1 className="text-4xl md:text-5xl font-light text-amber-100  leading-tight max-w-2xl mx-auto">
           Experience Authentic Ethiopian Cuisine at Habesha
         </h1>
       </div>
@@ -31,7 +31,7 @@ export default function GalleryPage() {
           {duplicatedItems.map((item, index) => (
             <div
               key={`${item.id}-${index}`}
-              className="flex-shrink-0 w-80 h-60 mx-4 bg-gray-300 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300"
+              className="flex-shrink-0 lg:w-[40%] lg:h-[65vh] mx-4 bg-gray-300 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-1000"
             >
               <img
                 src={item.src || "/placeholder.svg"}
@@ -41,11 +41,6 @@ export default function GalleryPage() {
             </div>
           ))}
         </div>
-      </div>
-
-      {/* Gallery Label */}
-      <div className="text-center py-12">
-        <h2 className="text-2xl font-light text-gray-700 tracking-wider">GALLERY</h2>
       </div>
 
       {/* Custom CSS for infinite scroll animation */}
