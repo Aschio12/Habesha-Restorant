@@ -112,14 +112,14 @@ export default function CustomerReviews() {
           </button>
 
           {/* Reviews Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-10">
             {currentReviews.map((review) => (
               <div
                 key={review.id}
                 className="bg-white/90 backdrop-blur-sm rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
               >
                 <div className="flex flex-col items-center text-center">
-                  <div className="w-20 h-20 rounded-full bg-gray-400 mb-4 overflow-hidden">
+                  <div className="w-40 h-40 rounded-full bg-gray-400 mb-3 overflow-hidden">
                     <img
                       src={review.avatar || "/placeholder.svg"}
                       alt={review.name}
